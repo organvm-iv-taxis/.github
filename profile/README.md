@@ -8,7 +8,8 @@
 >
 > In classical Greek, τάξις denotes the principle of arrangement — the ordering of parts into a functioning whole. In military contexts it described the disposition of troops; in philosophy, the rational structure that gives a system coherence. ORGAN-IV inherits this meaning: it is the layer that arranges, coordinates, and governs the entire eight-organ creative-institutional system.
 
-**5 repositories | ~18,000 words of documentation**
+**9 repositories · ~18,000 words of documentation**
+**3 PRODUCTION · 2 PROTOTYPE · 1 SKELETON · 3 DESIGN_ONLY**
 
 </div>
 
@@ -24,7 +25,7 @@ Concretely, ORGAN-IV handles:
 - **Governance enforcement** — maintaining the no-back-edges invariant (I → II → III only; downstream organs never create upstream dependencies)
 - **Promotion automation** — managing the state machine that moves repositories through LOCAL → CANDIDATE → PUBLIC_PROCESS → GRADUATED → ARCHIVED
 - **System coordination** — orchestrating multi-agent workflows, deployment pipelines, and launch sequencing
-- **Dependency management** — tracking what depends on what across ~80 repositories and 8 organizations
+- **Dependency management** — tracking what depends on what across 81 repositories and 8 organizations
 
 Without Taxis, the eight-organ system would be eight disconnected GitHub organizations. With it, they form a coherent institution.
 
@@ -33,10 +34,11 @@ Without Taxis, the eight-organ system would be eight disconnected GitHub organiz
 | Repository | Description | Status |
 |:-----------|:-----------|:------:|
 | **[agentic-titan](https://github.com/organvm-iv-taxis/agentic-titan)** | Polymorphic Agent Swarm Architecture — model-agnostic, self-organizing multi-agent system. The flagship orchestration engine. | Flagship |
-| [a-i--skills](https://github.com/organvm-iv-taxis/a-i--skills) | Public skill library — structured capability modules that extend agent workflows across all organs | Documented |
+| [a-i--skills](https://github.com/organvm-iv-taxis/a-i--skills) | Public skill library — structured capability modules that extend agent workflows across all organs | Production |
 | [universal-node-network](https://github.com/organvm-iv-taxis/universal-node-network) | Distributed node network infrastructure for decentralized system coordination | Documented |
 | [petasum-super-petasum](https://github.com/organvm-iv-taxis/petasum-super-petasum) | Meta-layered configuration and abstraction tooling — hat on a hat, recursion made operational | Documented |
 | [agent--claude-smith](https://github.com/organvm-iv-taxis/agent--claude-smith) | Agent identity and smithing patterns for Claude-based orchestration workflows | Documented |
+| [orchestration-start-here](https://github.com/organvm-iv-taxis/orchestration-start-here) | Entry point and routing documentation for the orchestration organ | Production |
 
 ## How ORGAN-IV Relates to the Eight-Organ System
 
@@ -52,7 +54,7 @@ Key architectural relationships:
 
 ## Part of the organvm System
 
-This organization is one of 8 in the [organvm system](https://github.com/meta-organvm):
+This organization is one of 8 in the [organvm system](https://github.com/meta-organvm) — 81 repositories, ~320K words of documentation, 16 published essays:
 
 | Organ | Domain | Organization |
 |:------|:-------|:------------|
@@ -65,6 +67,8 @@ This organization is one of 8 in the [organvm system](https://github.com/meta-or
 | VII | Marketing | [organvm-vii-kerygma](https://github.com/organvm-vii-kerygma) |
 | VIII | Meta | [meta-organvm](https://github.com/meta-organvm) |
 
+> **Read the public process:** [organvm-v-logos.github.io/public-process](https://organvm-v-logos.github.io/public-process/)
+
 ---
 
-<sub>ORGAN-IV: Taxis — orchestration and governance for the eight-organ creative-institutional system | [@4444j99](https://github.com/4444j99)</sub>
+<sub>ORGAN-IV: Taxis — orchestration and governance for the eight-organ creative-institutional system · 9 repositories · [@4444j99](https://github.com/4444j99) · CONSOLIDATION-II Sprint 2026-02-12</sub>
