@@ -1,0 +1,18 @@
+# seed.yaml — Automation Contract for organvm-iv-taxis/.github
+# Schema: seed/v1.0
+# Generated: 2026-02-12 (AUTONOMY Sprint)
+# Category: infrastructure
+
+schema_version: "1.0"
+organ: IV
+organ_name: Orchestration
+repo: .github
+org: organvm-iv-taxis
+
+metadata:
+  implementation_status: PRODUCTION
+  tier: infrastructure
+  promotion_status: LOCAL
+  last_validated: "2026-02-10"
+  generated: "2026-02-12"
+  sprint: "AUTONOMY"
