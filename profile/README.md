@@ -4,6 +4,8 @@
 
 # ORGAN-IV: Taxis — Orchestration & Governance
 
+_AI agent orchestration, system governance, and automation_
+
 > *τάξις (taxis) — arrangement, order, coordination*
 >
 > In classical Greek, τάξις denotes the principle of arrangement — the ordering of parts into a functioning whole. In military contexts it described the disposition of troops; in philosophy, the rational structure that gives a system coherence. ORGAN-IV inherits this meaning: it is the layer that arranges, coordinates, and governs the entire eight-organ creative-institutional system.
