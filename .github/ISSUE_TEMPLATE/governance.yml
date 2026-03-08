@@ -1,0 +1,64 @@
+name: "Governance Change"
+description: "Propose a change to governance rules, promotion logic, or system-wide policy"
+title: "[GOV] "
+labels: ["governance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Governance changes affect the entire eight-organ system. They require explicit
+        review and approval. See `governance-rules.json` for current articles and amendments.
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "Proposal"
+      description: "What governance change are you proposing? Be specific about which article, amendment, or rule is affected."
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: "Rationale"
+      description: "Why is this change needed? What problem does it solve? What evidence supports it?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: "Impact Analysis"
+      description: "Which organs, repos, or workflows are affected? What could break?"
+      value: |
+        **Organs affected:**
+        **Repos affected:**
+        **Workflows affected:**
+        **Risk of breakage:**
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: "Acceptance Criteria"
+      description: "How will we verify the governance change is correctly implemented?"
+      value: |
+        - [ ]
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: gates
+    attributes:
+      label: "Required Reviews"
+      description: "Governance changes have elevated review requirements."
+      options:
+        - label: "I have read the current governance-rules.json"
+          required: true
+        - label: "This change is backward-compatible with existing repos"
+        - label: "This change requires registry.json schema updates"
+        - label: "This change requires CI workflow updates"
+        - label: "This change affects promotion state machine logic"

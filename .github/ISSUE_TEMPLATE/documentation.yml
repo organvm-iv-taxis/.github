@@ -1,0 +1,59 @@
+name: "Documentation"
+description: "Report a documentation issue or suggest improvements"
+title: "[DOCS] "
+labels: ["documentation"]
+body:
+  - type: dropdown
+    id: organ
+    attributes:
+      label: "Organ"
+      description: "Which organ does this documentation belong to?"
+      options:
+        - "ORGAN-I (Theoria)"
+        - "ORGAN-II (Poiesis)"
+        - "ORGAN-III (Ergon)"
+        - "ORGAN-IV (Taxis)"
+        - "ORGAN-V (Logos)"
+        - "ORGAN-VI (Koinonia)"
+        - "ORGAN-VII (Kerygma)"
+        - "META-ORGANVM"
+        - "Cross-organ"
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: "Document Location"
+      description: "Which file, section, or page needs updating?"
+      placeholder: "orchestration-start-here/docs/conductor-playbook.md, section 'Phase Definitions'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: "What's Wrong or Missing"
+      description: "Describe the documentation gap, error, or improvement needed."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: "Suggested Change"
+      description: "What should the documentation say instead?"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: type
+    attributes:
+      label: "Documentation Type"
+      description: "What kind of documentation change is this?"
+      options:
+        - label: "Factual error (wrong information)"
+        - label: "Missing content (gap in coverage)"
+        - label: "Outdated (information no longer accurate)"
+        - label: "Unclear (confusing or ambiguous)"
+        - label: "Stranger Test failure (unintelligible to newcomers)"
