@@ -1,5 +1,5 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
-  - name: ORGAN System Documentation
-    url: https://github.com/meta-organvm/organvm-corpvs-testamentvm
+  - name: "ORGAN System Documentation"
+    url: "https://github.com/meta-organvm/organvm-corpvs-testamentvm"
     about: "Full system documentation and governance corpus"
