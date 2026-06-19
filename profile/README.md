@@ -19,7 +19,7 @@ _AI agent orchestration, system governance, and automation_
 
 > *We will be at the forefront of society, guiding the automated world's businesses and workforce away from collapse or stagnation — towards ethical and meaningful solutions that facilitate the rapid evolution of advanced empowerment for both employers and employees — in the workforce and the lifeforce.*
 
-ORGANVM enables **one person to enact ideas at enterprise level** — steering automation toward empowerment rather than collapse. ORGAN-IV is where that promise becomes operational: the orchestration, governance, and agent infrastructure that lets a single practitioner maintain 105 repositories across 8 organizations with the coherence of an institution.
+ORGANVM enables **one person to enact ideas at enterprise level** — steering automation toward empowerment rather than collapse. ORGAN-IV is where that promise becomes operational: the orchestration, governance, and agent infrastructure that lets a single practitioner maintain 81 repositories across 8 organizations with the coherence of an institution.
 
 ---
 
