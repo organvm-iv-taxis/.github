@@ -12,7 +12,13 @@ org: organvm-iv-taxis
 metadata:
   implementation_status: PRODUCTION
   tier: infrastructure
-  promotion_status: CANDIDATE
-  last_validated: "2026-02-10"
+  promotion_status: PUBLIC_PROCESS
+  last_validated: "2026-06-18"
   generated: "2026-02-12"
   sprint: "AUTONOMY"
+  activation_audit:
+    issue: "organvm-iv-taxis/.github#6"
+    classification: actually-live
+    label: ship-now
+    result: pass
+    evidence: "https://github.com/organvm-iv-taxis serves profile/README.md"
