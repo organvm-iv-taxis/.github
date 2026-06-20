@@ -33,3 +33,9 @@ files.
 This repo has no application build. Ship readiness is validated by checking
 that the profile renders on GitHub, YAML metadata parses cleanly, and the
 community health/workflow files are present.
+
+Run the local metadata test suite with:
+
+```sh
+make test
+```
